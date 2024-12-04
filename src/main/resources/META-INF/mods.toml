@@ -1,0 +1,49 @@
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+license="${mod_license}"
+#issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/"
+[[mods]]
+modId="enchantmentindustryjs"
+version="${mod_version}"
+displayName="${mod_name}"
+#updateJSONURL="https://change.me.example.invalid/updates.json"
+#displayURL="https://change.me.to.your.mods.homepage.example.invalid/"
+#logoFile="enchantmentindustryjs.png"
+#credits="Thanks for this example mod goes to Java"
+authors="${mod_authors}"
+description='''${mod_description}'''
+
+[[dependencies.enchantmentindustryjs]]
+   modId="forge"
+   mandatory=true
+   versionRange="${forge_version_range}"
+   ordering="NONE"
+   side="BOTH"
+
+[[dependencies.enchantmentindustryjs]]
+   modId="minecraft"
+   mandatory=true
+   versionRange="${minecraft_version_range}"
+   ordering="NONE"
+   side="BOTH"
+
+[[dependencies.enchantmentindustryjs]]
+   modId="kubejs"
+   mandatory=true
+   versionRange="[2001.6.5-build.16,)"
+   ordering="NONE"
+   side="BOTH"
+
+[[dependencies.enchantmentindustryjs]]
+   modId="create"
+   mandatory=true
+   versionRange="[0.5.1.i,)"
+   ordering="NONE"
+   side="BOTH"
+
+[[dependencies.enchantmentindustryjs]]
+   modId="create_enchantment_industry"
+   mandatory=true
+   versionRange="[1.2.9.d,)"
+   ordering="NONE"
+   side="BOTH"
